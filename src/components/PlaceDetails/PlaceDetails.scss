@@ -1,0 +1,51 @@
+.box {
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, .3);
+  margin-bottom: 20px;
+  .main-image {
+    max-width: 100%;
+    height: 300px;
+  }
+  .name,
+  .price,
+  .ranking,
+  .awards,
+  .address,
+  .phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .cuisine-box {
+    padding: 10px;
+    .cuisine {
+      display: inline-flex;
+      padding: 4px 10px;
+      border-radius: 4px;
+      background-color: #ddd;
+      margin: 2px;
+      font-size: 12px;
+    }
+  }
+  .info-icon {
+    font-size: 18px;
+  }
+  .btn-box {
+    padding: 10px;
+    button {
+      color: #795548;
+      border: none;
+      outline: none;
+      display: inline-flex;
+      margin-right: 10px;
+      padding: 10px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}
